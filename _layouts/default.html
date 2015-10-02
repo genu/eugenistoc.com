@@ -1,20 +1,30 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
   {% include head.html %}
-
   <body>
+    <!-- Main Content -->
+    <div class="shadow">
+      <div id="content-wrapper">
+        <a id="demo-logo">
+          <img src="images/demo-logo.png" alt=""/>
+        </a>
 
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+        {% include sections/about.html %}
+        {% include navigation.html %}
+        {% include sections/resume.html %}
+        {% include sections/contact.html %}
+        {% include sections/blog.html %}
+        {% include footer.html %}
       </div>
     </div>
 
-    {% include footer.html %}
+    <script src="{{ "/js/jquery.hashchange.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/jquery.flexslider-min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/jquery.easytabs.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/jquery.fancybox.pack.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/jquery.fancybox-media.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/jquery.infieldlabel.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/settings.js" | prepend: site.baseurl }}"></script>
 
   </body>
-
 </html>
