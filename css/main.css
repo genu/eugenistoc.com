@@ -1862,7 +1862,12 @@
 		-moz-transition: background-color 0.5s 0s ease;
  		-o-transition: background-color 0.5s 0s ease;
 	}
-
+	.social a {
+		color: white;
+	}
+	.social i {
+		margin-top: 8px;
+	}
 	.icon-picasa {
 		width: 30px;
 		height: 30px;
