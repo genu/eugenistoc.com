@@ -442,7 +442,7 @@
 
 	.etabs {
 		margin-left: 355px;
-		height: 110px;
+		height: 98px;
 	}
 
 	.etabs li {
@@ -468,13 +468,13 @@
 	.etabs li a:hover {
 		display: block;
 		width: 110px;
-		height: 100px;
+		height: 98px;
 	}
 
 	.etabs li a.active {
 		display: block;
 		width: 110px;
-		height: 110px;
+		height: 98px;
 	}
 
 	.tab-main a.active{
@@ -489,16 +489,16 @@
 		width: 32px;
 		height: 32px;
 		background: url(../images/nav_icons.png);
-		-webkit-transition: all 0.3s ease-in-out;
-		-moz-transition: all 0.3s ease-in-out;
-		-o-transition: all 0.3s ease-in-out;
-		transition: all 0.3s ease-in-out;
-		-ms-transition: all 0.3s ease-in-out;
+		-webkit-transition: all 0.1s ease-in-out;
+		-moz-transition: all 0.1s ease-in-out;
+		-o-transition: all 0.1s ease-in-out;
+		transition: all 0.1s ease-in-out;
+		-ms-transition: all 0.1s ease-in-out;
 	}
 
 	.tab i {
 		position: absolute;
-		top: 25px;
+		top: 16px;
 		left: 50%;
 		margin-left: -16px;
 		width: 32px;
@@ -525,26 +525,28 @@
 	.navicon-text, .uhere-text {
 		position: absolute;
 		width: 110px;
-		color: rgba(255,255,255,0);
-		-webkit-transition: all 0.3s ease-in-out;
+		/*color: rgba(255,255,255,0);*/
+		/*-webkit-transition: all 0.3s ease-in-out;
 		-moz-transition: all 0.3s ease-in-out;
 		-o-transition: all 0.3s ease-in-out;
 		transition: all 0.3s ease-in-out;
-		-ms-transition: all 0.3s ease-in-out;
+		-ms-transition: all 0.3s ease-in-out;*/
 	}
 
 	.navicon-text {
-		bottom: -20px;
+		top: 56px;
 	}
 
 	.uhere-text {
-		top: 50px;
+		top: 56px;
 		text-align: center;
+		display: none;
 	}
 
 	.tab-main a.active:hover .uhere-text {
-		top: 30px;
+		top: 32px;
 		color: rgba(255,255,255,1);
+		display: block;
 	}
 
 	.tab-main a.active:hover .navicon-about {
@@ -553,7 +555,7 @@
 	}
 
 	.etabs li a:hover .navicon-text {
-		bottom: 15px;
+		/*bottom: 32px;*/
 		color: rgba(255,255,255,1);
 	}
 
