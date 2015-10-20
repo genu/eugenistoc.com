@@ -34,30 +34,6 @@ $(function() {
     });
   })();
 
-
-  /* --------------------------------------------------------------------------- */
-  /*  Info slider
-  /* --------------------------------------------------------------------------- */
-  (function() {
-    var $slideWrap = $('.info-slide-wrapper'),
-      scrollSlider = $slideWrap.position().left - $('.info-slide-item').outerWidth();
-
-    setInterval(function() {
-      $slideWrap.animate({
-        left: scrollSlider
-      }, 500, function() {
-        $slideWrap
-          .find('.info-slide-item:first')
-          .appendTo($slideWrap)
-          .parent()
-          .css({
-            'left': 0
-          });
-      });
-    }, 6000);
-  })();
-
-
   /* ---------------------------------------------------------------------- */
   /*  Easytabs
   /* ---------------------------------------------------------------------- */
