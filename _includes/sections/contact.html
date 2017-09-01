@@ -1,63 +1,47 @@
 <div id="contacts">
-                <div class="fill-yellow">Contacts</div>
-
-                <div class="left-column">
-                    <div class="substrate">
-                        <h2>Contact Form</h2>
-
-                        <div class="form-success"><!-- Hidden succes form -->
-                            <div class="form-success-yellow">Message successfully sent</div>
-                            <div class="button new-message">
-                                <div class="button-big button-yellow">
-                                    <div class="button-anim"></div>
-                                    <div class="button-big-label">Send another message</div>
-                                </div>
-                            </div>
-                        </div><!-- /Hidden succes form -->
-
-                        <form action="#" id="contactform" class="animform"><!-- Contact form -->
-                            <ul>
-                                <li>
-                                   <label for="name" class="flabel">Name</label>
-                                   <input type="text" name="name" value="" id="name" />
-                                   <div class="indicate-name"></div>
-                                </li>
-                                <li>
-                                    <label for="email" class="flabel">E-mail</label>
-                                    <input type="text" name="email" value="" id="email" />
-                                    <div class="indicate-email"></div>
-                                </li>
-                                <li>
-                                    <label for="message" class="flabel">Enter your message</label>
-                                    <textarea name="message" cols="88" rows="6" id="message"></textarea>
-                                    <div class="indicate-message"></div>
-                                </li>
-                                <li>
-                                    <button type="submit" name="submit" value="Send your message" class="submit">Send your message</button>
-                                </li>
-                            </ul>
-                        </form><!-- /Contact form -->
-
-                    </div>
-                </div>
-
-                <div class="right-column">
-                    <div class="substrate">
-                        <h2>My Location</h2>
-                        <div id="map"></div><!-- GMAP -->
-                        <div class="map-pan">
-                            <div class="div-info pan pan-active" data-lat="36.143247" data-lng="-115.160151">
-                                <div class="thumb-icon-gmap"></div>
-                                <div class="thumb-name">My Address</div>
-                            </div>
-                            <div class="div-info pan" data-lat="36.149762" data-lng="-115.152726">
-                                <div class="thumb-icon-gmap"></div>
-                                <div class="thumb-name">My Office, Las Vegas, NV 01234</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="floatlimit"></div>
-
-            </div>
+  <div class="fill-yellow">Contacts</div>
+  <div class="left-column">
+    <div class="substrate">
+      <h2>Talk to me</h2>
+      <div class="form-success">
+        <div class="form-success-green">Message sent! Thx :)</div>
+      </div>
+      <form action="https://www.enformed.io/uktnb1ep" id="contactform" class="animform" method="POST">
+        <ul>
+          <li>
+            <label for="name" class="flabel">Name</label>
+            <input type="text" name="name" value="" id="name" />
+            <div class="indicate-name"></div>
+          </li>
+          <li>
+            <label for="email" class="flabel">E-mail</label>
+            <input type="text" name="email" value="" id="email" />
+            <div class="indicate-email"></div>
+          </li>
+          <li>
+            <label for="message" class="flabel">Enter your message</label>
+            <textarea name="message" cols="88" rows="6" id="message"></textarea>
+            <div class="indicate-message"></div>
+          </li>
+          <li>
+            <input type="hidden" name="*redirect" value="http://localhost:4000/#contacts?sent=true" />
+            <button type="submit" name="submit" value="Send your message" class="submit">Send your message</button>
+          </li>
+        </ul>
+      </form>
+    </div>
+  </div>
+  <div class="right-column">
+    <div class="substrate">
+      <h2>My Whereabouts</h2>
+      <div id="map"></div>
+      <div class="map-pan">
+        <div class="div-info pan pan-active" data-lat="36.143247" data-lng="-115.160151">
+          <div class="thumb-icon-gmap"></div>
+          <div class="thumb-name">Greater Atlanta Area</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="floatlimit"></div>
+</div>
