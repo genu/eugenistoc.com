@@ -1,10 +1,11 @@
-title: Nuxt UI Pro - Landing template
-description: Nuxt UI Pro is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.
+name: Eugen Istoc
+overview: Principal Software Engineer with 11+ years of experience architecting enterprise applications, specializing in modern web architectures and distributed systems. Led development of mission-critical applications serving 50K+ daily users at Fortune 500 companies. Deep expertise in micro-frontend architecture and cloud-native solutions, with Top Secret/SCI clearance enabling work on sensitive enterprise systems.
 hero:
-  title: Build your landing with Nuxt UI Pro
+  title: Eugen Istoc
   description: Nuxt UI Pro is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes. It includes all primitives to build landing pages, documentations, blogs, dashboards or entire SaaS products.
   links:
-    - label: Get started
+    - label: you dawg
+    - label: Get started poopie
       icon: i-lucide-arrow-right
       trailing: true
       to: https://ui3.nuxt.dev/getting-started/installation/pro/nuxt
@@ -106,11 +107,11 @@ sections:
     description: Although you can use any data source you want, Nuxt UI Pro is fully integrated with Nuxt Content and provides additional features when the module is detected.
     reverse: true
     features:
-      - name: 'Write Markdown with ease'
+      - name: "Write Markdown with ease"
         description: Nuxt UI Pro overrides Nuxt Content prose components to make them awesome but also adds new ones like Callout, CodeGroup, Field, etc.
         icon: i-simple-icons-markdown
       - name: Full-Text Search out of the box
-        description: 'Nuxt UI Pro ships with a ready to use command palette component. No need to setup Algolia DocSearch anymore.'
+        description: "Nuxt UI Pro ships with a ready to use command palette component. No need to setup Algolia DocSearch anymore."
         icon: i-lucide-search
     links:
       - label: Nuxt Content integration
@@ -147,23 +148,23 @@ templates:
     - title: Landing
       description: A template for building a landing page with Nuxt UI Pro.
       icon: i-lucide-layout
-      to: 'https://landing-template.nuxt.dev/'
-      image: '/templates/landing.png'
+      to: "https://landing-template.nuxt.dev/"
+      image: "/templates/landing.png"
     - title: Saas
       description: A template for building a SaaS application with Nuxt UI Pro.
       icon: i-lucide-cloud
-      to: 'https://saas-template.nuxt.dev/'
-      image: '/templates/saas.png'
+      to: "https://saas-template.nuxt.dev/"
+      image: "/templates/saas.png"
     - title: Docs
       description: A template for building a documentation site with Nuxt UI Pro.
       icon: i-lucide-book
-      to: 'https://docs-template.nuxt.dev/'
-      image: '/templates/docs.png'
+      to: "https://docs-template.nuxt.dev/"
+      image: "/templates/docs.png"
     - title: Dashboard
       description: A template for building a dashboard with Nuxt UI Pro.
       icon: i-lucide-chart-bar
-      to: 'https://dashboard-template.nuxt.dev/'
-      image: '/templates/dashboard.png'
+      to: "https://dashboard-template.nuxt.dev/"
+      image: "/templates/dashboard.png"
 pricing:
   headline: Pricing
   title: A plan for every need
@@ -250,87 +251,87 @@ testimonials:
   items:
     - quote: "We were using a SaaS service for the docs site, but were left unfulfilled. We put in the effort to do it in house, with UI Pro and not only did we get complimented by a prospect on our site, but they wanted to know our platform."
       user:
-        name: 'Anthony Bettini'
-        description: 'CEO and founder of VulnCheck'
-        to: 'https://www.linkedin.com/in/anthonybettini/'
+        name: "Anthony Bettini"
+        description: "CEO and founder of VulnCheck"
+        to: "https://www.linkedin.com/in/anthonybettini/"
         target: _blank
         avatar:
-          src: 'https://media.licdn.com/dms/image/v2/C4E03AQEY3pmXsH8hDg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1519741249602?e=1743638400&v=beta&t=lw2K6vS0OOCZWGtHY1buJVkRItQCa4OQw0vzAhhpJk8'
+          src: "https://media.licdn.com/dms/image/v2/C4E03AQEY3pmXsH8hDg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1519741249602?e=1743638400&v=beta&t=lw2K6vS0OOCZWGtHY1buJVkRItQCa4OQw0vzAhhpJk8"
     - quote: "Wow, Nuxt UI Pro is a total game-changer! I'm seriously impressed with the quality, attention to detail, and the insane variety of components you get. It's like hitting the jackpot for any developer. I've saved countless hours that I would've spent stressing over making my apps look good, with amazing accessible UX,  and instead, I've been able to focus on the real deal – building the app itself. It's an instant buy for me, every single time. No second thoughts!"
       user:
-        name: 'Yaz Jallad'
-        description:  'Founder Ninjaparade Digital'
-        to: 'https://twitter.com/ninjaparade/'
+        name: "Yaz Jallad"
+        description: "Founder Ninjaparade Digital"
+        to: "https://twitter.com/ninjaparade/"
         target: _blank
         avatar:
-          src: 'https://pbs.twimg.com/profile_images/1824690890222485504/lQ7v1AGt_400x400.jpg'
+          src: "https://pbs.twimg.com/profile_images/1824690890222485504/lQ7v1AGt_400x400.jpg"
     - quote: "Nuxt UI Pro saves 100s of hours of dev and design time while delivering a clean professional look on any device."
       user:
-        name: 'Kevin Olson'
-        description:  'Founder of Fume.app'
-        to: 'https://github.com/acidjazz'
+        name: "Kevin Olson"
+        description: "Founder of Fume.app"
+        to: "https://github.com/acidjazz"
         target: _blank
         avatar:
-          src: 'https://ipx.nuxt.com/f_auto,s_40x40/gh_avatar/acidjazz'
-          srcset: 'https://ipx.nuxt.com/f_auto,s_80x80/gh_avatar/acidjazz 2x'
+          src: "https://ipx.nuxt.com/f_auto,s_40x40/gh_avatar/acidjazz"
+          srcset: "https://ipx.nuxt.com/f_auto,s_80x80/gh_avatar/acidjazz 2x"
     - quote: "I decided to replace my custom-built components with a component library and chose Nuxt UI Pro. It only took me a few hours, and the new UI looks more professional. Integrating the library is easy; the components are well-documented and highly customizable. I can only recommend it; this library is my new choice for new SaaS products."
       user:
-        name: 'Michael Hoffmann'
-        description:  'Senior Frontend Developer'
-        to: 'https://mokkapps.de/'
+        name: "Michael Hoffmann"
+        description: "Senior Frontend Developer"
+        to: "https://mokkapps.de/"
         target: _blank
         avatar:
-          src: 'https://ipx.nuxt.com/f_auto,s_40x40/gh_avatar/mokkapps'
+          src: "https://ipx.nuxt.com/f_auto,s_40x40/gh_avatar/mokkapps"
     - quote: "Nuxt UI Pro is my go to component library. Out-of-the-box it handles all of the UI demands I throw at it while looking great. The customisation is really worth thought out, allowing you to override components in a breeze. Always amazed at the improvements dropped in each update as well, the team is doing an amazing job."
       user:
-        name: 'Harlan Wilton'
-        description:  'Nuxt core team member'
-        to: 'https://github.com/harlan-zw'
+        name: "Harlan Wilton"
+        description: "Nuxt core team member"
+        to: "https://github.com/harlan-zw"
         target: _blank
         avatar:
-          src: 'https://ipx.nuxt.com/f_auto,s_40x40/gh_avatar/harlan-zw'
+          src: "https://ipx.nuxt.com/f_auto,s_40x40/gh_avatar/harlan-zw"
     - quote: "I jumped at the chance to buy the Nuxt team's new UI kit as soon as I saw it. While I'm already a fan of Nuxt UI, the pro version takes it to a whole new level and lets me paste entire blocks into all my projects, saving me a ton of time."
       user:
-        name: 'Thomas Sanlis'
-        description:  'Freelance developer and designer'
-        to: 'https://twitter.com/T_Zahil'
+        name: "Thomas Sanlis"
+        description: "Freelance developer and designer"
+        to: "https://twitter.com/T_Zahil"
         target: _blank
         avatar:
-          src: 'https://pbs.twimg.com/profile_images/1374040164180299791/ACw4G3nZ_400x400.jpg'
+          src: "https://pbs.twimg.com/profile_images/1374040164180299791/ACw4G3nZ_400x400.jpg"
     - quote: "Nuxt UI has allowed me to develop my SaaS without any prior mockups. The design quality of their components and the intelligence of the DX meant that I was able to try many different layouts for my application until I found the perfect UX for my users. Nuxt UI is the ui-kit I would have dreamed of building myself, and Nuxt UI Pro makes things even easier when you want to go further with your SaaS. Kudos to the team."
       user:
-        name: 'Benjamin Code'
-        description:  'YouTuber and SaaS builder'
-        to: 'https://twitter.com/benjamincode'
+        name: "Benjamin Code"
+        description: "YouTuber and SaaS builder"
+        to: "https://twitter.com/benjamincode"
         target: _blank
         avatar:
-          src: 'https://pbs.twimg.com/profile_images/1607353032420769793/I8qQSUfQ_400x400.jpg'
+          src: "https://pbs.twimg.com/profile_images/1607353032420769793/I8qQSUfQ_400x400.jpg"
     - quote: "Nuxt UI Pro is my preferred choice for everything, from a POC to a web platform. It's ready to use out-of-the-box and assists me in crafting pixel-perfect UIs. It saves me a significant amount of time while remaining highly customizable. Give it a try, and you won't be let down."
       user:
-        name: 'Estéban Soubiran'
-        description:  'Web developer and UnJS member'
-        to: 'https://twitter.com/soubiran_'
+        name: "Estéban Soubiran"
+        description: "Web developer and UnJS member"
+        to: "https://twitter.com/soubiran_"
         target: _blank
         avatar:
-          src: 'https://pbs.twimg.com/profile_images/1801649350319218689/aS_X_iTm_400x400.jpg'
+          src: "https://pbs.twimg.com/profile_images/1801649350319218689/aS_X_iTm_400x400.jpg"
     - quote: "As someone who builds a lot of projects, Nuxt UI Pro has been a game-changer. It's not just about saving time – it's about having components that are thoughtfully designed and just work. The developer experience is exceptional, and I can focus on building features instead of tweaking UI components."
       user:
-        name: 'Hugo Richard'
-        description:  'Frontend Engineer at NuxtLabs'
-        to: 'https://twitter.com/hugorcd__'
+        name: "Hugo Richard"
+        description: "Frontend Engineer at NuxtLabs"
+        to: "https://twitter.com/hugorcd__"
         target: _blank
         avatar:
-          src: 'https://avatars.githubusercontent.com/u/71938701?v=4'
+          src: "https://avatars.githubusercontent.com/u/71938701?v=4"
 cta:
   title: Start with Nuxt UI Pro today!
   description: Nuxt UI Pro is free in development, but you need a license to use it in production.
   links:
     - label: Buy now
-      to: 'https://ui.nuxt.com/pro/purchase'
+      to: "https://ui.nuxt.com/pro/purchase"
       target: _blank
       icon: i-lucide-shopping-cart
     - label: License
-      to: 'https://ui3.nuxt.dev/getting-started/license'
+      to: "https://ui3.nuxt.dev/getting-started/license"
       trailingIcon: i-lucide-circle-help
       target: _blank
       variant: subtle

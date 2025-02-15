@@ -1,0 +1,22 @@
+{
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
+    "eslint.useFlatConfig": true,
+    "eslint.format.enable": true,
+    "files.exclude": {
+        "node_modules": true,
+        ".{idea,nuxt,output,trigger,generated,data}": true,
+    },
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "vue.format.script.initialIndent": true,
+    "vue.format.style.initialIndent": true,
+    "vue.inlayHints.missingProps": true,
+    "typescript.tsdk": "node_modules/typescript/lib",
+}
