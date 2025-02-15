@@ -27,3 +27,4 @@ prisma/generated
 .zenstack_repl_history
 .trigger
 .generated
+.netlify

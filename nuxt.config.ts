@@ -26,4 +26,7 @@ export default defineNuxtConfig({
     strict: false,
   },
   eslint: { config: { stylistic: true } },
+  nitro: {
+    preset: "netlify",
+  },
 })
