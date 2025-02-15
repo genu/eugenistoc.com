@@ -26,6 +26,7 @@ const contactLinkSchema = z.object({
 
 const skillSchema = z.object({
   name: z.string(),
+  subSkills: z.array(z.string()),
 })
 
 const projectSchema = z.object({

@@ -3,12 +3,12 @@
     return queryCollection("content").first()
   })
 
-  // useSeoMeta({
-  //   title: page.value.title,
-  //   ogTitle: page.value.title,
-  //   description: page.value.description,
-  //   ogDescription: page.value.description,
-  // })
+  useSeoMeta({
+    title: page.value.name,
+    ogTitle: page.value.name,
+    description: page.value.headline,
+    ogDescription: page.value.about,
+  })
 
   const isDark = computed(() => useColorMode().value == "dark")
 </script>
@@ -29,7 +29,12 @@
           </div>
         </div>
 
-        <NuxtImg width="130" height="130" sizes="100vw sm:50vw md:300px" :src="page.profileImage" class="rounded-md" />
+        <NuxtImg
+          width="130"
+          height="130"
+          sizes="100vw sm:50vw md:300px"
+          :src="page.profileImage"
+          class="rounded-lg drop-shadow-md" />
       </div>
       <div class="space-y-8">
         <PageSection title="About" :description="page.about">
@@ -53,7 +58,18 @@
         </PageSection>
         <PageSection title="Skills">
           <div class="flex flex-wrap gap-2">
-            <UBadge v-for="(skill, idx) in page.skills" :key="idx" :label="skill.name" variant="solid" />
+            <UCollapsible
+              :ui="{ content: 'p-2 flex gap-1', root: 'withSubSkills' }"
+              v-for="(skill, idx) in page.skills"
+              :key="idx">
+              <UButton :label="skill.name" block />
+
+              <template #content>
+                <div class="flex flex-wrap gap-1">
+                  <UBadge v-for="(subSkill, idx) in skill.subSkills" :key="idx" :label="subSkill" variant="soft" />
+                </div>
+              </template>
+            </UCollapsible>
           </div>
         </PageSection>
         <PageSection title="Projects">
@@ -65,3 +81,9 @@
     </UContainer>
   </div>
 </template>
+
+<style>
+  .withSubSkills[data-state="open"] {
+    @apply block w-full;
+  }
+</style>

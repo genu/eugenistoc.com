@@ -75,15 +75,17 @@ education:
 
 skills:
   - name: Frontend Development
-    items: [React, Vue.js, Angular, Next.js, Micro-Frontends]
+    subSkills: [React, Vue.js, Angular, Next.js, NuxtJS, Storybook, Module Federation, Web Components, Custom Elements, Redux, NgRx, Vuex, MobX, Pinia, Webpack, Vite, Rollup, Nx, Babel, Modern CSS Architecture, SASS/LESS, CSS-in-JS, Tailwind, React Testing Library, Vue Test Utils, Vitest]
   - name: Backend Development
-    items: [Node.js, Spring Boot, .NET]
+    subSkills: [Spring Boot, Laravel, Rails, NestJS, .NET, PostgreSQL, MongoDB, Redis, RESTful APIs, GraphQL, gRPC, Message Queues, WebSockets, Event-Driven Architecture]
   - name: Cloud & DevOps
-    items: [Azure, Kubernetes, Docker, Terraform]
+    subSkills: [Azure DevOps, Azure Service Fabric, Azure Functions, Azure Logic Apps, Kubernetes, Helm, Docker, Terraform, Pulumi, Azure ARM Templates, Istio, Kong, Azure Front Door, Azure AD, OAuth 2.0, JWT, SAML, Azure Monitor, Application Insights, Prometheus, Grafana, AKS, Azure Container Registry, ACR Tasks]
   - name: Testing
-    items: [Jest, Cypress, JUnit, Performance Testing]
-  - name: Architecture
-    items: [Microservices, Event-Driven Design, Domain-Driven Design]
+    subSkills: [Cypress, Selenium, Playwright, TestCafe, Jest, JUnit, xUnit, JMeter, K6, Artillery, Azure Load Testing, SonarQube, ESLint, Code Coverage, TDD, BDD, Integration Testing]
+  - name: Architecture & Methodologies
+    subSkills: [Microservices, Domain-Driven Design, Event Sourcing, CQRS, Micro-frontend, Distributed Systems, Event-Driven Design, Agile/Scrum, Kanban, SAFe, GitFlow, Trunk-Based Development, CI/CD, Feature Flags, Blue-Green Deployments]
+  - name: Programming Languages
+    subSkills: [JavaScript/TypeScript, Java, PHP, C#, C, Ruby, Swift/Objective-C]
 
 projects:
   - name: Social Sundae
