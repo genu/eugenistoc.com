@@ -60,18 +60,18 @@
               v-for="(skill, idx) in page.skills"
               :key="idx"
               :ui="{ content: 'p-2 flex gap-1', root: 'withSubSkills' }">
-              <UButton :label="skill.name" block />
+              <UButton :label="skill.name" block size="sm" />
 
               <template #content>
                 <div class="flex flex-wrap gap-1">
-                  <UBadge v-for="(subSkill, idx) in skill.subSkills" :key="idx" :label="subSkill" variant="soft" />
+                  <UBadge v-for="(subSkill, i) in skill.subSkills" :key="i" :label="subSkill" variant="soft" />
                 </div>
               </template>
             </UCollapsible>
           </div>
         </PageSection>
         <PageSection title="Projects">
-          <div class="grid gap-3 grid-cols-3">
+          <div class="grid grid-cols-3 gap-3">
             <Project v-for="(project, idx) in page.projects" :key="idx" v-bind="project" />
           </div>
         </PageSection>

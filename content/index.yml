@@ -23,11 +23,11 @@ workExperience:
     location: Atlanta, GA
     startDate: 2022
     tags: [React, Node.js, Azure, Kubernetes]
-    description: Led development of dispatch platform serving 10,000+ field technicians using micro-frontend architecture.
+    description: Drove key initiatives for dispatch platform serving thousands of field technicians, implementing micro-frontend architecture and enhancing system scalability
     accomplishments:
-      - Reduced deployment times by 60% through micro-frontend implementation
-      - Achieved 80% code coverage with automated testing infrastructure
-      - Streamlined deployment pipeline reducing time from 2 hours to 15 minutes
+      - Played a key role in micro-frontend implementation, significantly improving deployment times across the platform
+      - Architected and implemented comprehensive automated testing infrastructure, substantially increasing code coverage
+      - Optimized deployment pipeline architecture, reducing deployment time from hours to minutes
 
   - role: Senior Software Engineer
     company: Devexi
