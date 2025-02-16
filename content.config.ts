@@ -4,8 +4,8 @@ const workExperienceSchema = z.object({
   company: z.string(),
   role: z.string(),
   tags: z.array(z.string()),
-  startDate: z.string(),
-  endDate: z.string(),
+  startDate: z.number(),
+  endDate: z.number(),
   description: z.string(),
   accomplishments: z.array(z.string()),
 })
@@ -13,8 +13,8 @@ const workExperienceSchema = z.object({
 const educationSchema = z.object({
   institution: z.string(),
   degree: z.string(),
-  startDate: z.string(),
-  endDate: z.string(),
+  startDate: z.number(),
+  endDate: z.number(),
   location: z.string(),
 })
 

@@ -3,8 +3,8 @@
     institution?: string
     degree?: string
     location?: string
-    startDate?: string
-    endDate?: string
+    startDate?: number
+    endDate?: number
     description?: string
   }>()
 </script>
@@ -19,7 +19,7 @@
         <div class="text-sm text-gray-500">{{ startDate }} - {{ endDate }}</div>
       </div>
       <h4 class="text-sm leading-none">{{ institution }}</h4>
-      <div class="items-center max-w-md text-xs text-pretty inline-flex gap-x-1.5" v-if="location">
+      <div v-if="location" class="items-center max-w-md text-xs text-pretty inline-flex gap-x-1.5">
         <UIcon name="i-lucide-globe" />
         <span>{{ location }}</span>
       </div>

@@ -9,8 +9,6 @@
     description: page.value.headline,
     ogDescription: page.value.about,
   })
-
-  const isDark = computed(() => useColorMode().value == "dark")
 </script>
 
 <template>
@@ -59,9 +57,9 @@
         <PageSection title="Skills">
           <div class="flex flex-wrap gap-2">
             <UCollapsible
-              :ui="{ content: 'p-2 flex gap-1', root: 'withSubSkills' }"
               v-for="(skill, idx) in page.skills"
-              :key="idx">
+              :key="idx"
+              :ui="{ content: 'p-2 flex gap-1', root: 'withSubSkills' }">
               <UButton :label="skill.name" block />
 
               <template #content>
