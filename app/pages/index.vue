@@ -13,16 +13,16 @@
 
 <template>
   <div class="relative font-mono">
-    <UContainer class="py-12 flex flex-col space-y-8 max-w-3xl">
+    <UContainer class="flex flex-col max-w-3xl py-12 space-y-8">
       <div class="flex items-center justify-between">
         <div class="flex-1 space-y-1.5">
-          <h1 class="font-bold text-2xl">{{ page.name }}</h1>
-          <p class="text-sm text-pretty max-w-md">{{ page.headline }}</p>
+          <h1 class="text-2xl font-bold">{{ page.name }}</h1>
+          <p class="max-w-md text-sm text-pretty">{{ page.headline }}</p>
           <div class="items-center max-w-md text-xs text-pretty inline-flex gap-x-1.5">
             <UIcon name="i-lucide-globe" />
             <span>{{ page.location }}</span>
           </div>
-          <div class="flex gap-x-1 pt-1">
+          <div class="flex pt-1 gap-x-1">
             <ContactLink v-for="(contact, idx) in page.contact" :key="idx" v-bind="contact" />
           </div>
         </div>
@@ -45,7 +45,7 @@
           <div class="space-y-4">
             <WorkExperience v-for="(work, idx) in page.workExperience" :key="idx" v-bind="work">
               {{ work.description }}
-              <ul class="list-inside list-disc ml-3 mt-2">
+              <ul class="mt-2 ml-3 list-disc list-inside">
                 <li v-for="(accomplishment, idx) in work.accomplishments" :key="idx">{{ accomplishment }}</li>
               </ul>
             </WorkExperience>

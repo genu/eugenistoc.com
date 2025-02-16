@@ -1,8 +1,8 @@
 <template>
-  <div class="stars size-full absolute pointer-events-none inset-x-0 top-0 opacity-75">
-    <div class="h-px w-px rounded-full bg-transparent" />
-    <div class="h-px w-px rounded-full bg-transparent" />
-    <div class="h-px w-px rounded-full bg-transparent" />
+  <div class="absolute inset-x-0 top-0 opacity-75 pointer-events-none stars size-full">
+    <div class="w-px h-px bg-transparent rounded-full" />
+    <div class="w-px h-px bg-transparent rounded-full" />
+    <div class="w-px h-px bg-transparent rounded-full" />
   </div>
 </template>
 
