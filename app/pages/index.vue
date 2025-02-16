@@ -71,7 +71,7 @@
           </div>
         </PageSection>
         <PageSection title="Projects">
-          <div class="grid grid-cols-3 gap-3">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
             <Project v-for="(project, idx) in page.projects" :key="idx" v-bind="project" />
           </div>
         </PageSection>
