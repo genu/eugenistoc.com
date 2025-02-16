@@ -29,7 +29,7 @@
   }
 
   const props = withDefaults(defineProps<Props>(), {
-    color: "#FFF",
+    color: "#000",
     quantity: 100,
     staticity: 50,
     ease: 50,

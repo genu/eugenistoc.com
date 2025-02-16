@@ -15,7 +15,8 @@
 </script>
 
 <template>
-  <UApp :toaster="{ expand: false }">
+  <UApp :toaster="{ expand: false }" class="relative">
+    <ParticlesBg class="absolute top-0 left-0 z-50 flex w-full pointer-events-none h-72" />
     <UMain>
       <NuxtPage />
     </UMain>
