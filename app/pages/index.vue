@@ -19,7 +19,7 @@
       <div class="flex items-center justify-between">
         <div class="flex-1 space-y-1.5">
           <h1 class="font-bold text-2xl">{{ page.name }}</h1>
-          <p class="text-sm text-black text-pretty max-w-md">{{ page.headline }}</p>
+          <p class="text-sm text-pretty max-w-md">{{ page.headline }}</p>
           <div class="items-center max-w-md text-xs text-pretty inline-flex gap-x-1.5">
             <UIcon name="i-lucide-globe" />
             <span>{{ page.location }}</span>
