@@ -4,6 +4,6 @@
 
 <template>
   <UTooltip :text="label" :ui="{ content: 'flex' }">
-    <UButton size="md" :icon="icon" variant="outline" color="neutral" />
+    <UButton :to="url" size="md" :icon="icon" variant="outline" color="neutral" target="_blank" />
   </UTooltip>
 </template>

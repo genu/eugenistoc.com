@@ -4,9 +4,6 @@ location: Atlanta, GA
 about: Frontend-focused Full Stack Engineer specializing in high-performance React applications and scalable Node.js services.
 profileImage: profile.png
 contact:
-  - label: Home
-    url: https://eugenistoc.com
-    icon: i-mdi-globe
   - label: Github
     url: https://github.com/genu
     icon: i-mdi-github
@@ -14,7 +11,7 @@ contact:
     url: https://www.linkedin.com/in/eugen-istoc-4a4932b/
     icon: i-line-md-linkedin
   - label: X
-    url: https://x.com
+    url: https://x.com/eugenistoc
     icon: line-md:twitter-x-alt
 
 workExperience:
